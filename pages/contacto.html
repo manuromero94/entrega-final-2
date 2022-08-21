@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   
+    <!--css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>pages-contacto</title>
+</head>
+
+<body>
+    <header class="container">
+
+       <div class="row">
+
+        <div class="col-4">
+            <img src="../img/logo Chico.png" class="img-fluid" alt="logo de la empresa">
+       </div>
+
+       <nav class=" col-8 navbar navbar-expand-lg bg-menu ">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html"> inicio </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="../pages/desayunos.html"> desayunos </a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../pages/reposteria.html"> reposteria </a> 
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="../pages/viandas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"> viandas </a> 
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">proteicas</a></li>
+                  <li><a class="dropdown-item" href="#">veganas</a></li>
+                  <li><a class="dropdown-item" href="#">vegetarianas</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../pages/contacto.html"> contacto </a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    
+
+        
+       </div>
+
+    </header>
+ 
+        
+
+    <main class="container">
+
+        <div class="row">
+            <h1 class="col-12">Conocenos</h1>
+        </div>
+
+        <div class="row">
+            <div id="carouselExampleCaptions" class="carousel slide col-12" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/tentate-01.jpeg" class="img-fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias ad iusto consectetur voluptatum omnis laboriosam mollitia possimus !</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/conocenos-01.jpeg" class="img-fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                      <p>facilis fugit amet deserunt nobis nisi consequuntur ducimus aperiam consequatur nulla, quod deleniti</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/sabores-02.jpeg" class="img-fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                      <p>facilis fugit amet deserunt nobis nisi consequuntur ducimus aperiam consequatur nulla, quod deleniti</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            
+        </div>
+        
+        
+
+    </main>
+
+    <section class="container">
+
+        <div class="col-6">
+            <img src="../img/nosotros-01 Chico.jpeg" class="img-fluid" alt="">
+        </div>
+
+        <form class="row">
+            <fieldset class="col-6">
+                <legend>Formulario de contacto</legend>
+                <div>
+                    <label for="nombre">
+                        completa tu nombre
+                    </label>
+
+                    <input type="text" name="nombre" id="nombre" placeholder="completa tu nombre">  
+                </div>
+                <div>
+                   <label for="email">completa tu email</label> 
+                   <input type="email" name="email" id="email" placeholder="completa tu email">
+                </div>
+                <div>
+                    <label for="pais">selecciona tu pais</label>
+                    <select name="" id="">
+                        <option value="argentina">argentina</option>
+                        <option value="colombia">colombia</option>
+                        <option value="chile">chile</option>
+                    </select>
+                    <div>
+                        <input type="submit" value="enviado"> 
+                        <input type="reset" value="borrar">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+      
+
+    </section>         
+
+    <footer class="container">
+
+        <div class="row">
+            <h2 class="col-6"> Copyright 2022 © Todos los derechos reservados. </h2>
+
+            <div class="col-6">
+                <a href="../index.html">Volver al home</a>
+            </div>
+        </div>
+
+    </footer>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
+</body>
+</html>

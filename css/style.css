@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    height: 100vh;
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: 2fr 4fr 4fr 0.5fr;
+    grid-template-areas: 
+   "header header"
+   "main main"
+   "section section"
+   "footer footer";
+   background-color:rgb(205, 240, 234) ;
+
+}
+header{
+    grid-area: header;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.ListaDesordenada{
+    list-style-type: none;
+
+}
+.ListaDesordenada li{
+    display: inline-block;
+    margin: 1rem ;
+    background-color:rgb(246, 198, 234);
+    color: white;
+    padding:  1rem ;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 1rem;
+    text-transform: uppercase; 
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+
+}
+.logo img{
+    width:50% ;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(250, 244, 183);
+    text-align: center;
+    text-transform: uppercase; 
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main{
+    margin: 1rem;
+}
+
+.main h1{
+    font-size: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+section{
+    grid-area: section;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section img{
+    width: 55%;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 10%;
+}
+
+footer{
+    grid-area: footer;
+    background-color:rgb(249, 249, 249);
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+}
+
+/*bootstrap-pages-conctato*/
+
+
+header.container{
+    background-color: rgb(205, 240, 234);
+}
+
+main.container{
+    background-color: rgb(205, 240, 234);
+}
+main.container div.row h1{
+    font-size: 4rem;
+}
+ 
+
+section.container{
+    background-color: rgb(205, 240, 234);
+}
+ 
+footer.container div.row h2{
+    font-size: 1rem;
+   
+}
+footer.container{
+    background-color: rgb(249, 249, 249);
+
+}
+
+    
+    
+
+
+
