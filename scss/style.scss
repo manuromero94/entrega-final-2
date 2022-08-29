@@ -1,0 +1,106 @@
+@import"base/variables";
+@import"base/listas";
+@import"base/mapas";
+@import"base/extend";
+
+.contenedor{
+    background-color: nth($colores, 2);
+    display: grid;
+    grid-template-rows:0.5rem 1.5rem 1.5rem 0.5 ;
+    grid-template-areas: 
+    "container container" 
+    "main main"
+    "section section"
+    "footer footer";
+    header{
+        background-color: nth($colores, 1);
+        grid-area: header;
+    }
+    main{
+        grid-area: main;
+        div{
+            h1{
+                font-size:1.5rem ;
+                font-family:$tipografia-principal ;
+                text-align: center;
+                text-transform: uppercase;
+                
+
+            }
+            img{
+                height:$medida ;
+                width:$medida ;
+
+            }
+            p{
+                font-size:1rem ;
+                font-family:$tipografia-secundaria ;
+                text-align: center;
+                text-transform: uppercase;
+                text-decoration: underline;
+
+            }
+        }
+    }
+
+    section{
+        grid-area: section;
+        .tarjeta{
+            height:$medida ;
+            width:$medida ;
+            margin: 1rem;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h2{
+                font-size: 1rem;
+                font-family:$tipografia-principal;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            p{
+                font-size:0.5rem ;
+                font-family:$tipografia-secundaria ;
+                text-align: center;
+                text-transform: uppercase;
+                text-decoration: underline;
+            }
+            img{
+                height:$medida ;
+                width:$medida ;
+            }
+            button:hover{
+                padding: 0.5rem;
+                margin: 0.5rem;
+                background-color: nth($colores, 3);
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                display: inline-block;
+                font-size: 0.5rem;
+                border: 2px solid black;
+            }
+
+        }
+    }
+    footer{
+        background-color: nth($colores, 1);
+        grid-area: footer;
+        p{
+            font-size:0.5rem ;
+            font-family:$tipografia-principal;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+           
+        }
+    }
+
+}
+
+
+
+
+
