@@ -2,8 +2,8 @@
   background-color: #b2a4ff;
   display: grid;
   grid-template-rows: 0.5rem 1.5rem 1.5rem 0.5;
-  grid-template-areas: "container container"  "main main" "section section" "footer footer"; }
-  .contenedor header {
+  grid-template-areas: "header.container header.container"  "main main" "section section" "footer footer"; }
+  .contenedor header.container {
     background-color: #ffb4b4;
     grid-area: header; }
   .contenedor main {

@@ -8,11 +8,11 @@
     display: grid;
     grid-template-rows:0.5rem 1.5rem 1.5rem 0.5 ;
     grid-template-areas: 
-    "container container" 
+    "header.container header.container" 
     "main main"
     "section section"
     "footer footer";
-    header{
+    header.container{
         background-color: nth($colores, 1);
         grid-area: header;
     }
@@ -99,7 +99,6 @@
     }
 
 }
-
 
 
 
