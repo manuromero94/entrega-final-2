@@ -297,11 +297,27 @@
         width: 50%;
         height: 50%; }
 
-.container {
+.bootstrap {
   background-image: url(../img/fondo.jpg);
   background-size: cover; }
-  .container .containerContacto div.cont nav div div ul li {
-    border: 3px solid black; }
-  .container .containerContacto div.cont img {
-    width: 50%;
-    height: 50%; }
+
+header.container {
+  background-color: #cfccdf;
+  padding: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem; }
+
+main.container {
+  background-color: #cfccdf;
+  padding: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem; }
+
+footer.container {
+  background-color: #cfccdf; }
+  footer.container div h2 {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center; }
