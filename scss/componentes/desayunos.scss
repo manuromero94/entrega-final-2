@@ -3,50 +3,6 @@
 @import"base/mapas";
 @import"base/extend";
 
-.contenedorDesayuno{
-    height: 100vr;
-    display: grid;
-    grid-template-rows: 0.5rem 2rem 2rem 0.5rem;
-    grid-template-areas: 
-    "containerDesayuno containerDesayuno containerDesayuno"
-    "mainDesayuno mainDesayuno sectionDosDesayuno "
-    "sectionDesayuno sectionDesayuno sectionDosDesayuno"
-    "footerDesayuno footerDesayuno footerDesayuno"
-
-    .containerDesayuno{
-        grid-area:containerDesayuno;
-        background-color: nth($colores, 2);
-        display: grid;
-        grid-template-rows: 0.5rem 1.5rem 1.5rem 0.5 ;
-
-    }
-
-    .mainDesayuno{
-        grid-area: mainDesayuno;
-    }
-    .sectionDesayuno{
-        grid-area: sectionDesayuno;
-    }
-    .sectionDosDesayuno{
-        grid-area: sectionDosDesayuno;
-        flex-wrap: wrap;
-    }
-
-    .footerDesayuno{
-        grid-area: footerDesayuno;
-        background-color: nth($colores, 1);
-        grid-area: footer;
-        p{
-            font-size:0.5rem ;
-            font-family:$tipografia-principal;
-            text-align: center;
-            text-transform: uppercase;
-            text-decoration: underline;
-           
-        }
-    }
-}
-
 
 
 

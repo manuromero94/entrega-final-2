@@ -3,15 +3,311 @@
 @import"base/mapas";
 @import"base/extend";
 
+
 .contenedor{
     background-image: url(../img/fondo.jpg);
-   header{
+    background-size:cover;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;    
     align-items: center;
-    background-color: $colores 2;
-
-
-   }
-}
+    justify-content: center;
+    header.container{
+        background-color:nth($colores, 2);
+        padding: 2rem;
       
+        
+        div.container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            nav{ 
+                div{  
+                    div{ 
+                        ul{
+                            li{
+                                border: 3px solid black;
+
+                            }
+                           
+                        }
+                    }
+                }
+
+            }
+                
+           
+
+       
+            img{
+                width: 100%;
+                height: 80%;
+            }
+   
+        }
+ 
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        background-color:nth($colores, 2);
+        margin: 3rem ;
+        padding: 2rem;
+        
+        
+      
+        
+        img{
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+            width: 100%;
+            height: 80%;
+        }
+        h1{
+            text-align: center;
+            font-size: 3rem ;
+            font-family:$tipografia-secundaria;
+            text-transform: uppercase;
+            font-weight: bold; 
+        }
+        p{
+            font-size: 1rem ;
+            font-family:$tipografia-secundaria;
+            text-align: center;
+            font-weight: bold;
+            
+        }
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        padding: 2rem;
+        .tarjeta{
+            background-color:nth($colores, 2);
+            width: 100%;
+            height: 100%;
+            padding: 1rem;
+            margin: 1rem ;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+            
+            img{
+                width: 100%;
+                height: 180px;
+            }
+            h2{
+                text-align: center;
+                font-size: 2rem ;
+                font-family:$tipografia-secundaria;
+                text-transform: uppercase;
+                font-weight: bold; 
+
+            }
+            p{
+                font-size: 1rem ;
+                font-family:$tipografia-secundaria;
+                text-align: center;
+                font-weight: bold;
+            }
+            button{
+                font-size: 1rem ;
+                font-family:$tipografia-principal;
+                text-align: center;
+                font-weight: bold;
+                margin: 1rem;
+                padding: 1rem;
+                text-decoration: none;
+                border: 3px solid black;
+                background-color:nth($colores, 1); ;
+            }
+        }
+    }
+
+    footer{
+        font-size: 1rem ;
+        font-family:$tipografia-secundaria;
+        text-transform: uppercase;
+        font-weight: bold;
+            
+    }
+
+}
+
+
+
+
+.contenedorDesayuno{
+    background-image: url(../img/fondo.jpg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+
+    .containerDesayuno{
+        background-color:nth($colores, 2);
+        padding: 2rem;
+        width: 66.5rem;
+      
+        
+        div.container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+           
+
+            nav{ 
+                div{  
+                    div{ 
+                        ul{
+                            li{
+                                border: 3px solid black;
+
+                            }
+                           
+                        }
+                    }
+                }
+
+            }
+                
+            
+       
+            img{
+                width: 100%;
+                height: 80%;
+            }
+   
+        }
+ 
+    }
+
+    .mainDesayuno{
+        
+        background-color:nth($colores, 2);
+        margin: 5rem ;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div.main{
+            margin: 1rem;
+            padding: 1rem;
+            
+            h1{
+                text-align: center;
+                font-size: 3rem ;
+                font-family:$tipografia-secundaria;
+                text-transform: uppercase;
+                font-weight: bold; 
+            }
+            p{
+                font-size: 1rem ;
+                font-family:$tipografia-secundaria;
+                text-align: center;
+                font-weight: bold;
+            }
+            
+
+        }
+
+        img{
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+            width: 60%;
+            height: 70%;
+            padding: 1rem;
+        }
+    }
+    .sectionDesayuno{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:nth($colores, 2);
+        margin: 2rem 5rem ;
+        padding: 1rem;
+       
+        div{
+            h2{
+                text-align: center;
+                font-size: 3rem ;
+                font-family:$tipografia-secundaria;
+                text-transform: uppercase;
+                font-weight: bold; 
+            }
+            p{
+                font-size: 1rem ;
+                font-family:$tipografia-secundaria;
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+        img{
+            width: 80%;
+            height: 80%;
+
+        }
+
+    }
+    .sectionDosDesayuno{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        div{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color:nth($colores, 2);
+            text-align: center;
+            margin: 5rem;
+            padding: 3rem;
+            h3{
+                text-align: center;
+                font-size: 3rem ;
+                font-family:$tipografia-secundaria;
+                text-transform: uppercase;
+                font-weight: bold; 
+            }
+            p{
+                font-size: 1rem ;
+                font-family:$tipografia-secundaria;
+                text-align: center;
+                font-weight: bold;
+            }
+            img{
+                height: 35%;
+                width: 50%;
+            }
+            img.img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        //button{
+        //    z-index: 2;
+        //}
+
+        .footerDesayuno{
+            font-size: 1rem ;
+            font-family:$tipografia-secundaria;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-align: center;
+                
+        }
+
+    }
+
+
+}
+
+

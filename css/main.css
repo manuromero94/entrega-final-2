@@ -1,7 +1,191 @@
 .contenedor {
-  background-image: url(../img/fondo.jpg); }
-  .contenedor header {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .contenedor header.container {
+    background-color: #cfccdf;
+    padding: 2rem; }
+    .contenedor header.container div.container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .contenedor header.container div.container nav div div ul li {
+        border: 3px solid black; }
+      .contenedor header.container div.container img {
+        width: 100%;
+        height: 80%; }
+  .contenedor main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfccdf;
+    margin: 3rem;
+    padding: 2rem; }
+    .contenedor main img {
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+      width: 100%;
+      height: 80%; }
+    .contenedor main h1 {
+      text-align: center;
+      font-size: 3rem;
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      font-weight: bold; }
+    .contenedor main p {
+      font-size: 1rem;
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      font-weight: bold; }
+  .contenedor section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem; }
+    .contenedor section .tarjeta {
+      background-color: #cfccdf;
+      width: 100%;
+      height: 100%;
+      padding: 1rem;
+      margin: 1rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .contenedor section .tarjeta img {
+        width: 100%;
+        height: 180px; }
+      .contenedor section .tarjeta h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        font-weight: bold; }
+      .contenedor section .tarjeta p {
+        font-size: 1rem;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        font-weight: bold; }
+      .contenedor section .tarjeta button {
+        font-size: 1rem;
+        font-family: "Anton", sans-serif;
+        text-align: center;
+        font-weight: bold;
+        margin: 1rem;
+        padding: 1rem;
+        text-decoration: none;
+        border: 3px solid black;
+        background-color: #e9c7c7; }
+  .contenedor footer {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold; }
+
+.contenedorDesayuno {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .contenedorDesayuno .containerDesayuno {
+    background-color: #cfccdf;
+    padding: 2rem;
+    width: 66.5rem; }
+    .contenedorDesayuno .containerDesayuno div.container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .contenedorDesayuno .containerDesayuno div.container nav div div ul li {
+        border: 3px solid black; }
+      .contenedorDesayuno .containerDesayuno div.container img {
+        width: 100%;
+        height: 80%; }
+  .contenedorDesayuno .mainDesayuno {
+    background-color: #cfccdf;
+    margin: 5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .contenedorDesayuno .mainDesayuno div.main {
+      margin: 1rem;
+      padding: 1rem; }
+      .contenedorDesayuno .mainDesayuno div.main h1 {
+        text-align: center;
+        font-size: 3rem;
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        font-weight: bold; }
+      .contenedorDesayuno .mainDesayuno div.main p {
+        font-size: 1rem;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        font-weight: bold; }
+    .contenedorDesayuno .mainDesayuno img {
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+      width: 60%;
+      height: 70%;
+      padding: 1rem; }
+  .contenedorDesayuno .sectionDesayuno {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfccdf;
+    margin: 2rem 5rem;
+    padding: 1rem; }
+    .contenedorDesayuno .sectionDesayuno div h2 {
+      text-align: center;
+      font-size: 3rem;
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      font-weight: bold; }
+    .contenedorDesayuno .sectionDesayuno div p {
+      font-size: 1rem;
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      font-weight: bold; }
+    .contenedorDesayuno .sectionDesayuno img {
+      width: 80%;
+      height: 80%; }
+  .contenedorDesayuno .sectionDosDesayuno {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    background-color: #ffb4b4, #b2a4ff, #ffdeb4, #fff9ca 2; }
+    align-items: center; }
+    .contenedorDesayuno .sectionDosDesayuno div {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #cfccdf;
+      text-align: center;
+      margin: 5rem;
+      padding: 3rem; }
+      .contenedorDesayuno .sectionDosDesayuno div h3 {
+        text-align: center;
+        font-size: 3rem;
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        font-weight: bold; }
+      .contenedorDesayuno .sectionDosDesayuno div p {
+        font-size: 1rem;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        font-weight: bold; }
+      .contenedorDesayuno .sectionDosDesayuno div img {
+        height: 35%;
+        width: 50%; }
+      .contenedorDesayuno .sectionDosDesayuno div img.img {
+        height: 100%;
+        width: 100%; }
+    .contenedorDesayuno .sectionDosDesayuno .footerDesayuno {
+      font-size: 1rem;
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: center; }
