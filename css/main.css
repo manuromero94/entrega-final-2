@@ -96,7 +96,8 @@
   .contenedorDesayuno .containerDesayuno {
     background-color: #cfccdf;
     padding: 2rem;
-    width: 66.5rem; }
+    margin-left: 3rem;
+    margin-right: 3rem; }
     .contenedorDesayuno .containerDesayuno div.container {
       display: flex;
       justify-content: space-around;
@@ -189,3 +190,118 @@
       text-transform: uppercase;
       font-weight: bold;
       text-align: center; }
+
+.contenedorVianda {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover; }
+  .contenedorVianda .containerVianda {
+    background-color: #cfccdf;
+    padding: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem; }
+    .contenedorVianda .containerVianda div.container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .contenedorVianda .containerVianda div.container nav div div ul li {
+        border: 3px solid black; }
+      .contenedorVianda .containerVianda div.container img {
+        width: 50%;
+        height: 50%; }
+  .contenedorVianda .mainVianda {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .contenedorVianda .mainVianda .main {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #cfccdf;
+      margin: 3rem;
+      padding: 2rem; }
+      .contenedorVianda .mainVianda .main h1 {
+        font-size: 2rem;
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        font-weight: bold; }
+      .contenedorVianda .mainVianda .main h2 {
+        font-size: 2rem;
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        font-weight: bold; }
+      .contenedorVianda .mainVianda .main p {
+        font-size: 1rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold; }
+      .contenedorVianda .mainVianda .main button {
+        font-size: 1rem;
+        font-family: "Anton", sans-serif;
+        text-align: center;
+        font-weight: bold;
+        margin: 1rem;
+        padding: 1rem;
+        text-decoration: none;
+        border: 2px solid black;
+        background-color: #e9c7c7; }
+    .contenedorVianda .mainVianda .videos {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 3rem;
+      padding: 2rem; }
+      .contenedorVianda .mainVianda .videos div {
+        background-color: #cfccdf;
+        margin: 1rem;
+        padding: 1rem; }
+        .contenedorVianda .mainVianda .videos div h3 {
+          margin-bottom: 2rem;
+          text-align: center;
+          font-size: 2rem;
+          font-family: "Poppins", sans-serif;
+          text-transform: uppercase;
+          font-weight: bold; }
+      .contenedorVianda .mainVianda .videos div {
+        background-color: #cfccdf;
+        margin-top: 4rem;
+        padding: 1rem; }
+        .contenedorVianda .mainVianda .videos div h3 {
+          margin-bottom: 2rem;
+          text-align: center;
+          font-size: 2rem;
+          font-family: "Poppins", sans-serif;
+          text-transform: uppercase;
+          font-weight: bold; }
+  .contenedorVianda .footerVianda {
+    background-color: #cfccdf;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center; }
+
+.contenedorReposteria {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover; }
+  .contenedorReposteria .containerResposteria {
+    background-color: #cfccdf;
+    padding: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem; }
+    .contenedorReposteria .containerResposteria div.container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .contenedorReposteria .containerResposteria div.container nav div div ul li {
+        border: 3px solid black; }
+      .contenedorReposteria .containerResposteria div.container img {
+        width: 50%;
+        height: 50%; }
+
+.container {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover; }
+  .container .containerContacto div.cont nav div div ul li {
+    border: 3px solid black; }
+  .container .containerContacto div.cont img {
+    width: 50%;
+    height: 50%; }
