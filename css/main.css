@@ -1,3 +1,17 @@
+header.container .row {
+  display: flex;
+  justify-content: space-around;
+  background-color: #df6445; }
+  header.container .row nav div.container div.collapse ul li a.menu:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: #cc4421; }
+
+header.container .logoimg {
+  width: 15%;
+  height: 15%; }
+
 .contenedor {
   background-image: url(../img/fondo.jpg);
   background-size: cover;
@@ -5,24 +19,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center; }
-  .contenedor header.container {
-    background-color: #cfccdf;
-    padding: 2rem; }
-    .contenedor header.container div.container {
-      display: flex;
-      justify-content: space-around;
-      align-items: center; }
-      .contenedor header.container div.container nav div div ul li {
-        border: 3px solid black; }
-      .contenedor header.container div.container img {
-        width: 100%;
-        height: 80%; }
   .contenedor main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #cfccdf;
+    background-color: #df6445;
     margin: 3rem;
     padding: 2rem; }
     .contenedor main img {
@@ -47,7 +49,7 @@
     align-items: center;
     padding: 2rem; }
     .contenedor section .tarjeta {
-      background-color: #cfccdf;
+      background-color: #df6445;
       width: 100%;
       height: 100%;
       padding: 1rem;
@@ -57,8 +59,7 @@
       align-items: center;
       text-align: center; }
       .contenedor section .tarjeta img {
-        width: 100%;
-        height: 180px; }
+        width: 100%; }
       .contenedor section .tarjeta h2 {
         text-align: center;
         font-size: 2rem;
@@ -80,11 +81,6 @@
         text-decoration: none;
         border: 3px solid black;
         background-color: #e9c7c7; }
-  .contenedor footer {
-    font-size: 1rem;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    font-weight: bold; }
 
 .contenedorDesayuno {
   background-image: url(../img/fondo.jpg);
@@ -93,22 +89,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center; }
-  .contenedorDesayuno .containerDesayuno {
-    background-color: #cfccdf;
-    padding: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem; }
-    .contenedorDesayuno .containerDesayuno div.container {
-      display: flex;
-      justify-content: space-around;
-      align-items: center; }
-      .contenedorDesayuno .containerDesayuno div.container nav div div ul li {
-        border: 3px solid black; }
-      .contenedorDesayuno .containerDesayuno div.container img {
-        width: 100%;
-        height: 80%; }
   .contenedorDesayuno .mainDesayuno {
-    background-color: #cfccdf;
+    background-color: #df6445;
     margin: 5rem;
     padding: 1rem;
     display: flex;
@@ -138,7 +120,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #cfccdf;
+    background-color: #df6445;
     margin: 2rem 5rem;
     padding: 1rem; }
     .contenedorDesayuno .sectionDesayuno div h2 {
@@ -163,7 +145,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-color: #cfccdf;
+      background-color: #df6445;
       text-align: center;
       margin: 5rem;
       padding: 3rem; }
@@ -194,20 +176,6 @@
 .contenedorVianda {
   background-image: url(../img/fondo.jpg);
   background-size: cover; }
-  .contenedorVianda .containerVianda {
-    background-color: #cfccdf;
-    padding: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem; }
-    .contenedorVianda .containerVianda div.container {
-      display: flex;
-      justify-content: space-around;
-      align-items: center; }
-      .contenedorVianda .containerVianda div.container nav div div ul li {
-        border: 3px solid black; }
-      .contenedorVianda .containerVianda div.container img {
-        width: 50%;
-        height: 50%; }
   .contenedorVianda .mainVianda {
     display: flex;
     justify-content: space-around;
@@ -216,7 +184,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: #cfccdf;
+      background-color: #df6445;
       margin: 3rem;
       padding: 2rem; }
       .contenedorVianda .mainVianda .main h1 {
@@ -250,7 +218,7 @@
       margin: 3rem;
       padding: 2rem; }
       .contenedorVianda .mainVianda .videos div {
-        background-color: #cfccdf;
+        background-color: #df6445;
         margin: 1rem;
         padding: 1rem; }
         .contenedorVianda .mainVianda .videos div h3 {
@@ -261,7 +229,7 @@
           text-transform: uppercase;
           font-weight: bold; }
       .contenedorVianda .mainVianda .videos div {
-        background-color: #cfccdf;
+        background-color: #df6445;
         margin-top: 4rem;
         padding: 1rem; }
         .contenedorVianda .mainVianda .videos div h3 {
@@ -271,53 +239,30 @@
           font-family: "Poppins", sans-serif;
           text-transform: uppercase;
           font-weight: bold; }
-  .contenedorVianda .footerVianda {
-    background-color: #cfccdf;
-    font-size: 1rem;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center; }
 
 .contenedorReposteria {
   background-image: url(../img/fondo.jpg);
   background-size: cover; }
-  .contenedorReposteria .containerResposteria {
-    background-color: #cfccdf;
-    padding: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem; }
-    .contenedorReposteria .containerResposteria div.container {
-      display: flex;
-      justify-content: space-around;
-      align-items: center; }
-      .contenedorReposteria .containerResposteria div.container nav div div ul li {
-        border: 3px solid black; }
-      .contenedorReposteria .containerResposteria div.container img {
-        width: 50%;
-        height: 50%; }
 
 .bootstrap {
   background-image: url(../img/fondo.jpg);
   background-size: cover; }
 
-header.container {
-  background-color: #cfccdf;
-  padding: 2rem;
-  margin-left: 3rem;
-  margin-right: 3rem; }
-
 main.container {
-  background-color: #cfccdf;
-  padding: 2rem;
-  margin-left: 3rem;
-  margin-right: 3rem; }
+  margin: 3rem;
+  padding: 1rem; }
+  main.container .row {
+    background-color: #df6445; }
+  main.container section.container div.row div.card {
+    background-color: #df6445; }
+  main.container aside.container div.row div.card div.card-body {
+    background-color: #df6445; }
 
 footer.container {
-  background-color: #cfccdf; }
-  footer.container div h2 {
-    font-size: 1rem;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center; }
+  margin-top: 1rem;
+  background-color: #df6445;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center; }
