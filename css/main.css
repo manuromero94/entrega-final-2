@@ -10,7 +10,9 @@ header.container .row {
 
 header.container .logoimg {
   width: 15%;
-  height: 15%; }
+  height: 15%;
+  border-radius: 50%;
+  padding: 5px; }
 
 .contenedor {
   background-image: url(../img/fondo.jpg);
@@ -31,7 +33,9 @@ header.container .logoimg {
       margin-top: 1rem;
       margin-bottom: 1.5rem;
       width: 100%;
-      height: 80%; }
+      height: 80%;
+      border-radius: 8px;
+      padding: 5px; }
     .contenedor main h1 {
       text-align: center;
       font-size: 3rem;
@@ -59,7 +63,9 @@ header.container .logoimg {
       align-items: center;
       text-align: center; }
       .contenedor section .tarjeta img {
-        width: 100%; }
+        width: 100%;
+        border-radius: 8px;
+        padding: 5px; }
       .contenedor section .tarjeta h2 {
         text-align: center;
         font-size: 2rem;
@@ -115,7 +121,8 @@ header.container .logoimg {
       margin-bottom: 1.5rem;
       width: 60%;
       height: 70%;
-      padding: 1rem; }
+      padding: 5px;
+      border-radius: 8px; }
   .contenedorDesayuno .sectionDesayuno {
     display: flex;
     justify-content: space-between;
@@ -162,10 +169,14 @@ header.container .logoimg {
         font-weight: bold; }
       .contenedorDesayuno .sectionDosDesayuno div img {
         height: 35%;
-        width: 50%; }
+        width: 50%;
+        border-radius: 4px;
+        padding: 5px; }
       .contenedorDesayuno .sectionDosDesayuno div img.img {
         height: 100%;
-        width: 100%; }
+        width: 100%;
+        border-radius: 4px;
+        padding: 5px; }
     .contenedorDesayuno .sectionDosDesayuno .footerDesayuno {
       font-size: 1rem;
       font-family: "Poppins", sans-serif;
@@ -209,7 +220,7 @@ header.container .logoimg {
         margin: 1rem;
         padding: 1rem;
         text-decoration: none;
-        border: 2px solid black;
+        border: 1px solid black;
         background-color: #e9c7c7; }
     .contenedorVianda .mainVianda .videos {
       flex-direction: column;
