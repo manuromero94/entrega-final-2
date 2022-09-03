@@ -2,11 +2,13 @@
 @import"base/listas";
 @import"base/mapas";
 @import"base/extend";
+/*ESTILO MENU*/
 header.container{
     .row{
         display: flex;
         justify-content: space-around;
         background-color:nth($colores, 2);
+        border-radius: 3rem;
         nav{
             div.container{
                 div.collapse{
@@ -14,9 +16,20 @@ header.container{
                         li{
                             a.menu:hover{
                                 box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-                                font-size: 1.2rem;
+                                font-size: 1rem;
                                 text-transform: uppercase;
                                 background-color: nth($colores , 3);
+                                border-radius: 3rem;
+                            }
+                            a.menu:active{
+                                transform: translateY(4px);
+                                transform: scale(0.7rem);
+                                background-color: nth($colores , 3);
+                                font-size: 0.7rem;
+                            }
+                            a.menu{
+                                border-radius: 3rem;
+                                margin: 1rem;
                             }
                            
                         }
@@ -25,17 +38,170 @@ header.container{
             }
         }
     }
-    
     .logoimg{
-        width: 15%;
-        height: 15%;
+        width: 10%;
+        height: 10%;
         border-radius: 50%;
-        padding: 5px;
+        padding: 3px;
     }
-
+}
+/*ESTILO FOOTER*/
+footer.container{
+    margin-top: 1rem;
+    font-size: 1rem ;
+    font-family:$tipografia-secundaria;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    div{
+        p{
+            display: inline-block;
+            background-color:nth($colores, 2);
+            border-radius: 3rem;
+            padding: 1rem;
+        }
+    }
+}
+/*ESTILOS DE BOTONES*/
+.botonIndex{
+    font-size: 1rem ;
+    font-family:$tipografia-principal;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color:nth($colores, 3); 
+    border-radius:3rem ;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+}
+.botonIndex:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: nth($colores , 1);
+    border-radius: 3rem;
+}
+.botonIndex:active{
+    transform: translateY(4px);
+    transform: scale(0.7rem);
+    background-color: nth($colores , 1);
+    font-size: 0.7rem;
+}
+.botonContacto{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    background-color:nth($colores, 3);
+   
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.botonContacto:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: nth($colores , 1);
+    border-radius: 3rem;
+}
+.botonContacto:active{
+    transform: translateY(4px);
+    transform: scale(0.7rem);
+    background-color:nth($colores , 1);
+    font-size: 0.7rem;
+}
+.enviado:hover{
+    //background-color:nth($colores, 4);
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+}
+.enviado:active{
+    background-color: nth($colores, 4);
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    transform: translateY(4px);
+}
+.borrar:hover{
+   // background-color: nth($colores, 1);
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+}
+.borrar:active{
+    background-color:nth($colores, 1);
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    transform: translateY(4px);
+}
+.whatsapp{       
+    font-size: 1rem ;
+    font-family:$tipografia-principal;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color:nth($colores, 4);
+    border-radius: 3rem;
+    text-transform: uppercase;
+    a{
+        text-decoration: none;
+        color: black;  
+    }
+}
+.whatsapp:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-transform: uppercase;
+    background-color:nth($colores, 5);
+    border-radius: 3rem;
+}
+.whatsapp:active{
+    transform: translateY(4px);
+    transform: scale(0.7rem);
+    background-color:nth($colores , 5) ;
+    font-size: 0.7rem;
+}
+/* ESTILO IMAGENES*/
+.carrocel{
+    border-radius: 3rem;
+    width: 100%;
+}
+.tarjetaContacto{
+    background-color:nth($colores, 2);
+    border-radius: 3rem;
+    img{
+        border-radius: 3rem;
+        padding: 1rem;
+    }
+}
+main.container{
+    margin: 3rem;
+    padding: 1rem;
+.row{
+    h1{
+        background-color:nth($colores, 2);
+        border-radius: 3rem;
+    }
 }
 
 
+
+
+    
+    
+
+}
 .contenedor{
     background-image: url(../img/fondo.jpg);
     background-size:cover;
@@ -43,48 +209,47 @@ header.container{
     flex-direction: column;    
     align-items: center;
     justify-content: center;
-   
     main{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items:center;
-        background-color:nth($colores, 2);
         margin: 3rem ;
         padding: 2rem;
-        
-        
-      
-        
         img{
             margin-top: 1rem;
             margin-bottom: 1.5rem;
-            width: 100%;
+            width: 80%;
             height: 80%;
-            border-radius: 8px;
+            border-radius: 2rem;
             padding: 5px;
         }
         h1{
+            display: inline-block;
             text-align: center;
             font-size: 3rem ;
             font-family:$tipografia-secundaria;
             text-transform: uppercase;
             font-weight: bold; 
+            background-color:nth($colores, 2);
+            border-radius: 1rem;
+            padding: 1rem;
         }
         p{
             font-size: 1rem ;
             font-family:$tipografia-secundaria;
             text-align: center;
             font-weight: bold;
+            background-color:nth($colores, 2);
+            border-radius: 1rem;
+            padding: 1rem;
             
         }
     }
-
     section{
         display: flex;
         justify-content: center;
         align-items: center;
-    
         padding: 2rem;
         .tarjeta{
             background-color:nth($colores, 2);
@@ -96,12 +261,11 @@ header.container{
             justify-content: center;
             align-items: center;
             text-align: center;
-            
-            
+            border-radius: 3rem;
             img{
                 width: 100%;
             
-                border-radius: 8px;
+                border-radius: 50%;
                 padding: 5px;
             }
             h2{
@@ -110,6 +274,7 @@ header.container{
                 font-family:$tipografia-secundaria;
                 text-transform: uppercase;
                 font-weight: bold; 
+                
 
             }
             p{
@@ -117,27 +282,11 @@ header.container{
                 font-family:$tipografia-secundaria;
                 text-align: center;
                 font-weight: bold;
-            }
-            button{
-                 
-               
                 
-                font-size: 1rem ;
-                font-family:$tipografia-principal;
-                text-align: center;
-                font-weight: bold;
-                margin: 1rem;
-                padding: 1rem;
-                text-decoration: none;
-                border: 3px solid black;
-                background-color:nth($colores, 1); 
             }
         }
     }
-
-   
 }
-
 .contenedorDesayuno{
     background-image: url(../img/fondo.jpg);
     background-size:cover;
@@ -145,9 +294,7 @@ header.container{
     flex-direction: column;    
     align-items: center;
     justify-content: center;
-
     .mainDesayuno{
-        
         background-color:nth($colores, 2);
         margin: 5rem ;
         padding: 1rem;
@@ -157,7 +304,6 @@ header.container{
         div.main{
             margin: 1rem;
             padding: 1rem;
-            
             h1{
                 text-align: center;
                 font-size: 3rem ;
@@ -171,18 +317,14 @@ header.container{
                 text-align: center;
                 font-weight: bold;
             }
-            
-
         }
-
         img{
             margin-top: 1rem;
             margin-bottom: 1.5rem;
             width: 60%;
             height: 70%;
             padding: 5px;
-            border-radius: 8px;
-           
+            border-radius:1rem;
         }
     }
     .sectionDesayuno{
@@ -192,7 +334,6 @@ header.container{
         background-color:nth($colores, 2);
         margin: 2rem 5rem ;
         padding: 1rem;
-       
         div{
             h2{
                 text-align: center;
@@ -211,10 +352,8 @@ header.container{
         img{
             width: 80%;
             height: 80%;
-           // border-radius: 50%;
+            border-radius:1rem;
             //border: 8px solid black;
-            
-
         }
 
     }
@@ -271,7 +410,6 @@ header.container{
 
 
 }
-
 .contenedorVianda{
     background-image: url(../img/fondo.jpg);
     background-size:cover; 
@@ -309,18 +447,7 @@ header.container{
 
             }
 
-            button{
-                font-size: 1rem ;
-                font-family:$tipografia-principal;
-                text-align: center;
-                font-weight: bold;
-                margin: 1rem;
-                padding: 1rem;
-                text-decoration: none;
-                border: 1px solid black;
-                background-color:nth($colores, 1);
-            }
-
+            
         }
         .videos{
             flex-direction: column;
@@ -330,7 +457,7 @@ header.container{
             margin: 3rem ;
             padding: 2rem;
             div{
-                background-color:nth($colores, 2);
+                
                 margin: 1rem ;
                 padding: 1rem;
                 h3{
@@ -340,12 +467,13 @@ header.container{
                     font-family:$tipografia-secundaria;
                     text-transform: uppercase;
                     font-weight: bold; 
+                    background-color:nth($colores, 2);
 
                 }
 
             }
             div{
-                background-color:nth($colores, 2);
+               
                 margin-top: 4rem;
                 padding: 1rem;
                 h3{
@@ -355,6 +483,7 @@ header.container{
                     font-family:$tipografia-secundaria;
                     text-transform: uppercase;
                     font-weight: bold; 
+                    background-color:nth($colores, 2);
 
                 }
 
@@ -365,7 +494,6 @@ header.container{
 
    
 }
-
 .contenedorReposteria{
     background-image: url(../img/fondo.jpg);
     background-size:cover; 
@@ -378,44 +506,6 @@ header.container{
 }
 
 
-main.container{
-    margin: 3rem;
-    padding: 1rem;
 
-.row{
-    background-color:nth($colores, 2);
-}
 
-section.container{
-    div.row{
-        div.card{
-            background-color:nth($colores, 2);  
-        }
-    }
-}
 
-aside.container{
-    div.row{
-        div.card{
-            div.card-body{
-                background-color:nth($colores, 2);
-            }
-        }
-    }
-
-}
-    
-    
-
-}
-
-footer.container{
-    margin-top: 1rem;
-    background-color:nth($colores, 2);
-    font-size: 1rem ;
-    font-family:$tipografia-secundaria;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-
-}

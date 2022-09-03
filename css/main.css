@@ -1,18 +1,166 @@
+/*ESTILO MENU*/
 header.container .row {
   display: flex;
   justify-content: space-around;
-  background-color: #df6445; }
+  background-color: #df6445;
+  border-radius: 3rem; }
   header.container .row nav div.container div.collapse ul li a.menu:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
-    background-color: #cc4421; }
+    background-color: #cc4421;
+    border-radius: 3rem; }
+  header.container .row nav div.container div.collapse ul li a.menu:active {
+    transform: translateY(4px);
+    transform: scale(0.7rem);
+    background-color: #cc4421;
+    font-size: 0.7rem; }
+  header.container .row nav div.container div.collapse ul li a.menu {
+    border-radius: 3rem;
+    margin: 1rem; }
 
 header.container .logoimg {
-  width: 15%;
-  height: 15%;
+  width: 10%;
+  height: 10%;
   border-radius: 50%;
-  padding: 5px; }
+  padding: 3px; }
+
+/*ESTILO FOOTER*/
+footer.container {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center; }
+  footer.container div p {
+    display: inline-block;
+    background-color: #df6445;
+    border-radius: 3rem;
+    padding: 1rem; }
+
+/*ESTILOS DE BOTONES*/
+.botonIndex {
+  font-size: 1rem;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: #cc4421;
+  border-radius: 3rem; }
+  .botonIndex a {
+    color: black;
+    text-decoration: none; }
+
+.botonIndex:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: #be1111;
+  border-radius: 3rem; }
+
+.botonIndex:active {
+  transform: translateY(4px);
+  transform: scale(0.7rem);
+  background-color: #be1111;
+  font-size: 0.7rem; }
+
+.botonContacto {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 3rem;
+  background-color: #cc4421; }
+  .botonContacto a {
+    text-decoration: none;
+    color: black; }
+
+.botonContacto:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: #be1111;
+  border-radius: 3rem; }
+
+.botonContacto:active {
+  transform: translateY(4px);
+  transform: scale(0.7rem);
+  background-color: #be1111;
+  font-size: 0.7rem; }
+
+.enviado:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 3rem; }
+
+.enviado:active {
+  background-color: #21c929;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  border-radius: 3rem;
+  transform: translateY(4px); }
+
+.borrar:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 3rem; }
+
+.borrar:active {
+  background-color: #be1111;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  border-radius: 3rem;
+  transform: translateY(4px); }
+
+.whatsapp {
+  font-size: 1rem;
+  font-family: "Anton", sans-serif;
+  padding: 1rem;
+  border: 1px solid black;
+  background-color: #21c929;
+  border-radius: 3rem;
+  text-transform: uppercase; }
+  .whatsapp a {
+    text-decoration: none;
+    color: black; }
+
+.whatsapp:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-transform: uppercase;
+  background-color: #04611b;
+  border-radius: 3rem; }
+
+.whatsapp:active {
+  transform: translateY(4px);
+  transform: scale(0.7rem);
+  background-color: #04611b;
+  font-size: 0.7rem; }
+
+/* ESTILO IMAGENES*/
+.carrocel {
+  border-radius: 3rem;
+  width: 100%; }
+
+.tarjetaContacto {
+  background-color: #df6445;
+  border-radius: 3rem; }
+  .tarjetaContacto img {
+    border-radius: 3rem;
+    padding: 1rem; }
+
+main.container {
+  margin: 3rem;
+  padding: 1rem; }
+  main.container .row h1 {
+    background-color: #df6445;
+    border-radius: 3rem; }
 
 .contenedor {
   background-image: url(../img/fondo.jpg);
@@ -26,27 +174,33 @@ header.container .logoimg {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #df6445;
     margin: 3rem;
     padding: 2rem; }
     .contenedor main img {
       margin-top: 1rem;
       margin-bottom: 1.5rem;
-      width: 100%;
+      width: 80%;
       height: 80%;
-      border-radius: 8px;
+      border-radius: 2rem;
       padding: 5px; }
     .contenedor main h1 {
+      display: inline-block;
       text-align: center;
       font-size: 3rem;
       font-family: "Poppins", sans-serif;
       text-transform: uppercase;
-      font-weight: bold; }
+      font-weight: bold;
+      background-color: #df6445;
+      border-radius: 1rem;
+      padding: 1rem; }
     .contenedor main p {
       font-size: 1rem;
       font-family: "Poppins", sans-serif;
       text-align: center;
-      font-weight: bold; }
+      font-weight: bold;
+      background-color: #df6445;
+      border-radius: 1rem;
+      padding: 1rem; }
   .contenedor section {
     display: flex;
     justify-content: center;
@@ -61,10 +215,11 @@ header.container .logoimg {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      text-align: center; }
+      text-align: center;
+      border-radius: 3rem; }
       .contenedor section .tarjeta img {
         width: 100%;
-        border-radius: 8px;
+        border-radius: 50%;
         padding: 5px; }
       .contenedor section .tarjeta h2 {
         text-align: center;
@@ -77,16 +232,6 @@ header.container .logoimg {
         font-family: "Poppins", sans-serif;
         text-align: center;
         font-weight: bold; }
-      .contenedor section .tarjeta button {
-        font-size: 1rem;
-        font-family: "Anton", sans-serif;
-        text-align: center;
-        font-weight: bold;
-        margin: 1rem;
-        padding: 1rem;
-        text-decoration: none;
-        border: 3px solid black;
-        background-color: #e9c7c7; }
 
 .contenedorDesayuno {
   background-image: url(../img/fondo.jpg);
@@ -122,7 +267,7 @@ header.container .logoimg {
       width: 60%;
       height: 70%;
       padding: 5px;
-      border-radius: 8px; }
+      border-radius: 1rem; }
   .contenedorDesayuno .sectionDesayuno {
     display: flex;
     justify-content: space-between;
@@ -143,7 +288,8 @@ header.container .logoimg {
       font-weight: bold; }
     .contenedorDesayuno .sectionDesayuno img {
       width: 80%;
-      height: 80%; }
+      height: 80%;
+      border-radius: 1rem; }
   .contenedorDesayuno .sectionDosDesayuno {
     display: flex;
     justify-content: space-around;
@@ -212,16 +358,6 @@ header.container .logoimg {
         font-size: 1rem;
         font-family: "Poppins", sans-serif;
         font-weight: bold; }
-      .contenedorVianda .mainVianda .main button {
-        font-size: 1rem;
-        font-family: "Anton", sans-serif;
-        text-align: center;
-        font-weight: bold;
-        margin: 1rem;
-        padding: 1rem;
-        text-decoration: none;
-        border: 1px solid black;
-        background-color: #e9c7c7; }
     .contenedorVianda .mainVianda .videos {
       flex-direction: column;
       align-items: center;
@@ -229,7 +365,6 @@ header.container .logoimg {
       margin: 3rem;
       padding: 2rem; }
       .contenedorVianda .mainVianda .videos div {
-        background-color: #df6445;
         margin: 1rem;
         padding: 1rem; }
         .contenedorVianda .mainVianda .videos div h3 {
@@ -238,9 +373,9 @@ header.container .logoimg {
           font-size: 2rem;
           font-family: "Poppins", sans-serif;
           text-transform: uppercase;
-          font-weight: bold; }
+          font-weight: bold;
+          background-color: #df6445; }
       .contenedorVianda .mainVianda .videos div {
-        background-color: #df6445;
         margin-top: 4rem;
         padding: 1rem; }
         .contenedorVianda .mainVianda .videos div h3 {
@@ -249,7 +384,8 @@ header.container .logoimg {
           font-size: 2rem;
           font-family: "Poppins", sans-serif;
           text-transform: uppercase;
-          font-weight: bold; }
+          font-weight: bold;
+          background-color: #df6445; }
 
 .contenedorReposteria {
   background-image: url(../img/fondo.jpg);
@@ -258,22 +394,3 @@ header.container .logoimg {
 .bootstrap {
   background-image: url(../img/fondo.jpg);
   background-size: cover; }
-
-main.container {
-  margin: 3rem;
-  padding: 1rem; }
-  main.container .row {
-    background-color: #df6445; }
-  main.container section.container div.row div.card {
-    background-color: #df6445; }
-  main.container aside.container div.row div.card div.card-body {
-    background-color: #df6445; }
-
-footer.container {
-  margin-top: 1rem;
-  background-color: #df6445;
-  font-size: 1rem;
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center; }
